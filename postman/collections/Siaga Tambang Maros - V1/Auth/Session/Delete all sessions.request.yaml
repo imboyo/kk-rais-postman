@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/auth/session/sessions"
+method: DELETE
+order: 4502650077839359
