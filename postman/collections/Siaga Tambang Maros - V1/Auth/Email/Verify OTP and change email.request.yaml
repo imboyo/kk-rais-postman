@@ -5,7 +5,9 @@ body:
   type: json
   content: "{\r
 
-    \    \"new_email\": \"new.email@example.com\"\r
+    \    \"new_email\": \"new.email@example.com\",\r
+
+    \    \"code\": \"123456\"\r
 
     }"
-order: 2000
+order: 4000
