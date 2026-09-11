@@ -1,0 +1,8 @@
+$kind: collection
+auth:
+  - id: 76a39a0b-091a-4d3d-acc0-719b65ca05a8
+    type: bearer
+    name: bearer auth
+    credentials:
+      token: "{{reviewer_access_token}}"
+order: 9000

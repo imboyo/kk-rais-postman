@@ -1,0 +1,52 @@
+$kind: http-example
+request:
+  url: "{{host}}/public-complaint/base/list"
+  method: POST
+  headers:
+    Content-Type: application/json
+    User-Agent: insomnia/12.3.1
+  body:
+    type: json
+    content: |-
+      {
+        "page": 1,
+        "limit": 10,
+        "filter": [
+          {
+            "field": "status",
+            "operator": "eq",
+            "value": "deleting"
+          }
+        ]
+      }
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    X-Powered-By: Express
+    Vary: Origin
+    Access-Control-Allow-Credentials: "true"
+    X-RateLimit-Limit-spam_protection: "5"
+    X-RateLimit-Remaining-spam_protection: "4"
+    X-RateLimit-Reset-spam_protection: "1"
+    X-RateLimit-Limit-minute_window: "120"
+    X-RateLimit-Remaining-minute_window: "119"
+    X-RateLimit-Reset-minute_window: "60"
+    Content-Type: application/json; charset=utf-8
+    Content-Length: "83"
+    ETag: W/"53-HfV/vybyaSgoM7gL/nkBxdS8OT8"
+    Date: Thu, 12 Feb 2026 11:36:04 GMT
+    Connection: keep-alive
+    Keep-Alive: timeout=5
+  body:
+    type: text
+    content: |-
+      {
+          "total": 0,
+          "limit": 10,
+          "previousPage": null,
+          "nextPage": null,
+          "totalPages": 0,
+          "data": []
+      }
+order: 1000

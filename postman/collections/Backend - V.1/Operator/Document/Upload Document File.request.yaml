@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{host}}/operator/public-complaint/document/upload-document-file"
+method: POST
+body:
+  type: formdata
+  content:
+    - type: file
+      key: file
+      src:
+        - /E:/Downloads/Laporan Progress Pengembangan Sistem - DUMAS APP -  2 Februari - 8 Februari 2026.pdf
+    - type: text
+      key: type
+      value: document
+order: 1000

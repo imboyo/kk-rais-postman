@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{host}}/auth/token/login-verify-otp"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+        "username": "imboyo",
+        "otp": "833171"
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 2000

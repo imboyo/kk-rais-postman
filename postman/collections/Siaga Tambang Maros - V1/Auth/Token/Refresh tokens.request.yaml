@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{host}}/auth/token/refresh"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"refresh_token\": \"{{admin-refresh-token}}\"\r
+
+    }"
+order: 4000

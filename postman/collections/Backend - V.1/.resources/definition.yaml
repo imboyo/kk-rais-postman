@@ -1,0 +1,16 @@
+$kind: collection
+description: ""
+variables:
+  host: ""
+  admin_access_token: ""
+  admin_refresh_token: ""
+  operator_access_token: ""
+  operator_refresh_token: ""
+  reviewer_access_token: ""
+  reviewer_refresh_token: ""
+auth:
+  - id: 3255b6fe-9b15-4578-884a-c82b97e4c777
+    type: bearer
+    name: bearer auth
+    credentials:
+      token: "{{admin_access_token}}"

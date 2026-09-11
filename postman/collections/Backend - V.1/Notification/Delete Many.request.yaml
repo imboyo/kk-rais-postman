@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{_['backend-host']}}/notification/delete-many"
+method: DELETE
+headers:
+  Content-Type: application/json
+  User-Agent: insomnia/12.3.0
+body:
+  type: json
+  content: |-
+    {
+    	"uuids": ["6981fb62d801ecdad3fcb43a", "6981fb62d801ecdad3fcb43b"]
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 3000

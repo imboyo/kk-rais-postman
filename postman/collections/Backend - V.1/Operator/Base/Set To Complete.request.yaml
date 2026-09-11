@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{host}}/operator/public-complaint/base/set-to-complete/4c1b240b-072d-42fb-8c63-98261ed08854"
+method: PUT
+headers:
+  User-Agent: insomnia/12.3.1
+body:
+  type: json
+  content: ""
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+examples: ./.resources/Set To Complete.resources/examples
+order: 4000

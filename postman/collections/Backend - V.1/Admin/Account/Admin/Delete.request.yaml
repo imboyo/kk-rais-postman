@@ -1,0 +1,18 @@
+$kind: http-request
+url: "{{ _['backend-host'] }}/admin/account/admin/delete/9992a82f-110b-4b44-9017-5b58a7211a5f"
+method: DELETE
+headers:
+  Content-Type: application/json
+  User-Agent: insomnia/12.3.0
+body:
+  type: json
+  content: |-
+    {
+    	"phone_number": "+6285399292027",
+    	"full_name": "Aidil Jamade"
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 5000

@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{host}}/operator/public-complaint/document/update-offline-check"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"documentFileUuid\": \"99e72a1f-1d02-45c8-8811-379ae7b6845f\",\r
+
+    \    \"reviewUuid\": \"64e25d0e-18e7-4893-9bec-39efcf742ed9\"\r
+
+    }"
+order: 11000

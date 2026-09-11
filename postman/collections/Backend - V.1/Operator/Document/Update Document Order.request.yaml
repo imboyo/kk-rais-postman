@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{host}}/operator/public-complaint/document/update-document-order"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"targetUuid\": \"7a9549f9-d3d6-4f9d-b4a3-70832474a55e\",\r
+
+    \    \"beforeUuid\": \"bf833530-9600-49a5-9663-70f819cdfa81\",\r
+
+    \    \"publicComplaintUuid\": \"bb18a733-5b25-465f-a4f8-e3f194ea4f5b\"\r
+
+    }"
+order: 7000

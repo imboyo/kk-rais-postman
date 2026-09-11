@@ -1,0 +1,7 @@
+$kind: http-request
+url: "{{host}}/reviewer/public-complaint/document/reject/64e25d0e-18e7-4893-9bec-39efcf742ed9"
+method: POST
+body:
+  type: json
+  content: ""
+order: 2000

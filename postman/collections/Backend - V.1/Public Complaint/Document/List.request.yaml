@@ -1,0 +1,29 @@
+$kind: http-request
+url: "{{host}}/public-complaint/document/list"
+method: POST
+headers:
+  User-Agent: insomnia/12.3.1
+body:
+  type: json
+  content: "{\r
+
+    \    \"filter\": [\r
+
+    \        {\r
+
+    \            \"field\": \"doc_number\",\r
+
+    \            \"operator\": \"eq\",\r
+
+    \            \"value\": \"DOC/2024/PC-0012\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 1000

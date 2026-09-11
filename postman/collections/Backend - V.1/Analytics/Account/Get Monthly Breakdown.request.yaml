@@ -1,0 +1,18 @@
+$kind: http-request
+url: "{{ _['backend-host'] }}/analytics/account/get-monthly-breakdown"
+method: POST
+headers:
+  Content-Type: application/json
+  User-Agent: insomnia/12.3.1
+body:
+  type: json
+  content: |-
+    {
+      "startDate": "2026-02-10T00:00:00.000+07:00",
+      "endDate": "2026-12-17T23:59:59.999+07:00"
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 4000

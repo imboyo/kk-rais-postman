@@ -1,0 +1,45 @@
+$kind: http-example
+request:
+  url: "{{host}}/operator/public-complaint/base/update/4c1b240b-072d-42fb-8c63-98261ed08854"
+  method: PATCH
+  headers:
+    User-Agent: insomnia/12.3.1
+  body:
+    type: json
+    content: "{\r
+
+      \  \"title\": \"Laporan Pelanggaran Prosedur (Revisi Judul)\",\r
+
+      \  \"documentNumber\": \"REQ/2026/02/001-REV\"\r
+
+      }"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    X-Powered-By: Express
+    Vary: Origin
+    Access-Control-Allow-Credentials: "true"
+    X-RateLimit-Limit-spam_protection: "5"
+    X-RateLimit-Remaining-spam_protection: "4"
+    X-RateLimit-Reset-spam_protection: "1"
+    X-RateLimit-Limit-minute_window: "120"
+    X-RateLimit-Remaining-minute_window: "119"
+    X-RateLimit-Reset-minute_window: "60"
+    Content-Type: application/json; charset=utf-8
+    Content-Length: "154"
+    ETag: W/"9a-bz3zkjBjQMbSuvrWHt9kUtLyzoQ"
+    Date: Wed, 11 Feb 2026 14:50:23 GMT
+    Connection: keep-alive
+    Keep-Alive: timeout=5
+  body:
+    type: text
+    content: |-
+      {
+          "message": "Public Complaint updated successfully.",
+          "data": {
+              "title": "Laporan Pelanggaran Prosedur (Revisi Judul)",
+              "documentNumber": "REQ/2026/02/001-REV"
+          }
+      }
+order: 1000

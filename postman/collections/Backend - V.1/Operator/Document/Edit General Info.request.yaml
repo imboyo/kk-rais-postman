@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{host}}/operator/public-complaint/document/edit-general-info/bf833530-9600-49a5-9663-70f819cdfa81"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"Laporan Hasil Investigasi Lapangan Tahap Awal\"\r
+
+    }"
+order: 5000

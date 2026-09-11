@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/reviewer/public-complaint/document/approve/64e25d0e-18e7-4893-9bec-39efcf742ed9"
+method: POST
+order: 1000

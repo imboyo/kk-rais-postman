@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{host}}/operator/public-complaint/document/delete-reviewer"
+method: DELETE
+body:
+  type: json
+  content: "{\r
+
+    \  \"reviewerUuid\": \"a601df51-5092-44ad-ab93-ae692916836f\",\r
+
+    \  \"documentUuid\": \"e534c1a3-7f34-426e-b566-dd8590f41b31\"\r
+
+    }"
+order: 9000

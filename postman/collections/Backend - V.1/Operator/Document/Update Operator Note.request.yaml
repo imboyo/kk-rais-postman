@@ -1,0 +1,7 @@
+$kind: http-request
+url: "{{host}}/operator/public-complaint/document/update-operator-note/7a9549f9-d3d6-4f9d-b4a3-70832474a55e"
+method: PATCH
+body:
+  type: json
+  content: "{\r\n    \"note\": null\r\n}"
+order: 10000

@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{host}}/operator/public-complaint/document/add-dispotition"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"documentNumber\": \"DOC/2024/PC-001\",\r
+
+    \  \"title\": \"Laporan Hasil Investigasi Lapangan Tahap Awal\",\r
+
+    \  \"documentFileUuid\": \"a4b16182-ea68-4e86-893f-705fff9c180c\",\r
+
+    \  \"dispotitions\": [\"Proses/TIndak Lanjuti sesuai SOP\", \"Lengkapi ADMnya\"]\r
+
+    }"
+order: 2000

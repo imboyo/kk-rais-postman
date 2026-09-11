@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{_['backend-host']}}/auth/token/refresh-token"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"refresh_token\": \"{{refresh_token}}\"\r
+
+    }"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 3000

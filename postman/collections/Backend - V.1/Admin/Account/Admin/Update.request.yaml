@@ -1,0 +1,18 @@
+$kind: http-request
+url: "{{ _['backend-host'] }}/admin/account/admin/update/2866e9c2-fe84-4a4c-ad56-0dd9e4399c1c"
+method: PATCH
+headers:
+  Content-Type: application/json
+  User-Agent: insomnia/12.3.0
+body:
+  type: json
+  content: |-
+    {
+    	"phone_number": "+6285399292027",
+    	"full_name": "Aidil Jamade"
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 4000

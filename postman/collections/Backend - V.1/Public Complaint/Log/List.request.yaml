@@ -1,0 +1,31 @@
+$kind: http-request
+url: "{{host}}/public-complaint/log/list"
+method: POST
+headers:
+  User-Agent: insomnia/12.3.1
+body:
+  type: json
+  content: "{   \r
+
+    \    \"populate\": [\"public_complaint\"],\r
+
+    \    \"filter\": [\r
+
+    \        {\r
+
+    \            \"field\": \"public_complaint.uuid\",\r
+
+    \            \"operator\": \"eq\",\r
+
+    \            \"value\": \"bb18a733-5b25-465f-a4f8-e3f194ea4f5b\"\r
+
+    \        }\r
+
+    \    ]\r
+
+    }"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 1000

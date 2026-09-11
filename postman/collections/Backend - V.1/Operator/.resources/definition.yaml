@@ -1,0 +1,8 @@
+$kind: collection
+auth:
+  - id: a6fd2f80-4dd4-4725-bf8d-f1045a4dfa36
+    type: bearer
+    name: bearer auth
+    credentials:
+      token: "{{operator_access_token}}"
+order: 8000

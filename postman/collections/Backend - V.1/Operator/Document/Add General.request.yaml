@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{host}}/operator/public-complaint/document/add-general"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"documentNumber\": \"DOC/2024/PC-001\",\r
+
+    \  \"title\": \"Laporan Hasil Investigasi Lapangan Tahap Awal\",\r
+
+    \  \"documentFileUuid\": \"08c0baed-46c7-48d5-841c-3163eacc8469\",\r
+
+    \  \"publicComplaintUuid\": \"3be47107-8b93-4086-b7f1-044cd1f7d610\"\r
+
+    }"
+order: 4000

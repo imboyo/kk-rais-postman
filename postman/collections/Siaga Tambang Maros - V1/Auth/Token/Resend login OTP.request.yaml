@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{host}}/auth/token/resend-otp"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"identifier\": \"imboyo\"\r
+
+    }"
+order: 2000

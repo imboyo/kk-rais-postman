@@ -1,0 +1,10 @@
+$kind: http-request
+url: "{{ _['backend-host'] }}/analytics/account/total"
+method: GET
+headers:
+  User-Agent: insomnia/12.3.1
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 1000

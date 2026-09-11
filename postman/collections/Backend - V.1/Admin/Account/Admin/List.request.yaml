@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{host}}/admin/account/admin/list"
+method: POST
+headers:
+  Content-Type: application/json
+  User-Agent: insomnia/12.3.0
+body:
+  type: json
+  content: |-
+    {
+
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 1000

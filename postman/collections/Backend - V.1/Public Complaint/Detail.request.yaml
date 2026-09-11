@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{host}}/public-complaint/base/detail/ba395dea-691c-4423-9818-1c4b765e449f"
+method: POST
+headers:
+  Content-Type: application/json
+  User-Agent: insomnia/12.3.1
+body:
+  type: json
+  content: |-
+    {
+    	"populate": ["steps"]
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 4000

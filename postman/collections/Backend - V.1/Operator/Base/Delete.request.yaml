@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{host}}/operator/public-complaint/base/delete/75a592b4-f8c8-4a66-9199-e97cfad5c35d"
+method: DELETE
+headers:
+  User-Agent: insomnia/12.3.1
+body:
+  type: json
+  content: ""
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 2000

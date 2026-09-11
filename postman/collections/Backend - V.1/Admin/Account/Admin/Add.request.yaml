@@ -1,0 +1,22 @@
+$kind: http-request
+url: "{{host}}/admin/account/admin/add"
+method: POST
+headers:
+  Content-Type: application/json
+  User-Agent: insomnia/12.3.0
+body:
+  type: json
+  content: |-
+    {
+    	"username": "test-operator",
+    	"email": "testoperator@gmail.com",
+    	"password": "operator123456",
+    	"fullName": "Operator Test",
+    	"status": "active",
+    	"phoneNumber": "+6281111211242"
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 2000

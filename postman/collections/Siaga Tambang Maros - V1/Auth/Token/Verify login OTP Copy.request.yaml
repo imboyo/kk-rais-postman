@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{host}}/auth/token/verify-otp"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"identifier\": \"admin@example.com\",\r
+
+    \  \"code\": \"433659\"\r
+
+    }"
+order: 3000

@@ -1,0 +1,27 @@
+$kind: http-request
+url: "{{host}}/public-complaint/base/list"
+method: POST
+headers:
+  Content-Type: application/json
+  User-Agent: insomnia/12.3.1
+body:
+  type: json
+  content: |-
+    {
+      "page": 1,
+      "limit": 10,
+      "populate": ["steps"],
+      "filter": [
+        {
+          "field": "status",
+          "operator": "eq",
+          "value": "deleting"
+        }
+      ]
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+examples: ./.resources/List.resources/examples
+order: 3000

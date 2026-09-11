@@ -1,0 +1,40 @@
+$kind: http-request
+url: "{{host}}/operator/public-complaint/base/update/4c1b240b-072d-42fb-8c63-98261ed08854"
+method: PATCH
+headers:
+  User-Agent: insomnia/12.3.1
+body:
+  type: json
+  content: "{\r
+
+    \  \"deleteReporters\": [\r
+
+    \    \"dc79e4b9-fd92-49f2-b684-8da7edda75ba\"\r
+
+    \  ],\r
+
+    \  \"newReporters\": [\r
+
+    \    \"Bob Harrison\"\r
+
+    \  ],\r
+
+    \  \"deleteReportedParties\": [\r
+
+    \    \"b8f1f9a0-9d95-4ef7-b980-ce7190d99006\"\r
+
+    \  ],\r
+
+    \  \"newReportedParties\": [\r
+
+    \    \"Direktur Operasional\"\r
+
+    \  ]\r
+
+    }"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+examples: ./.resources/Update.resources/examples
+order: 3000

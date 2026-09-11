@@ -1,0 +1,25 @@
+$kind: http-request
+url: "{{host}}/auth/admin/add-super-admin"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"username\": \"imboyo\",\r
+
+    \    \"email\": \"imbomabrur0906@gmail.com\",\r
+
+    \    \"password\": \"ayyu230686\",\r
+
+    \    \"fullName\": \"Mabrur Syamhur\",\r
+
+    \    \"superAdminKey\": \".^#`a_BH6iy'.zd8AXU5SC@^dHq4|lgi]ne_sfe~l]I|5!YU)JVs.o]YEw{DOBd\"\r
+
+    }"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 1000

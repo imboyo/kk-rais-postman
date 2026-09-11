@@ -1,0 +1,26 @@
+$kind: http-request
+url: "{{host}}/admin/account/user/add"
+method: POST
+headers:
+  Content-Type: application/json
+  User-Agent: insomnia/12.3.0
+body:
+  type: json
+  content: |-
+    {
+    	"username": "reviewer-1",
+    	"email": "reviewer1@gmail.com",
+    	"password": "reviewer123456",
+    	"fullName": "Reviewer 1",
+    	"status": "active",
+    	"phoneNumber": "+6281111211241",
+    	"userInfo": {
+    		"position": "Presiden",
+    		"role": "reviewer"
+    	}
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 2000

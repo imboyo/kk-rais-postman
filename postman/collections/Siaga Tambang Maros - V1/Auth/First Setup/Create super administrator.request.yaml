@@ -1,0 +1,19 @@
+$kind: http-request
+url: "{{host}}/auth/first-setup/create-super-admin"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"super_admin_secret_key\": \"1c4ea4214bf56c34d9dfbdde5ae0d09b5b06285ae45e9816e0c77b3cc70d527c9ae0afc3e82970f9d80c0a7ef3ae2c35\",\r
+
+    \    \"username\": \"imboyo\",\r
+
+    \    \"email\": \"admin@example.com\",\r
+
+    \    \"password\": \"ayyu230686!\",\r
+
+    \    \"full_name\": \"Mabrur Syamhur\"\r
+
+    }"
+order: 2000

@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{host}}/operator/public-complaint/document/delete/08999cc7-189a-4941-be77-8ab1c83d018b"
+method: DELETE
+body:
+  type: json
+  content: "{\r
+
+    \  \"documentNumber\": \"DOC/2024/PC-001\",\r
+
+    \  \"title\": \"Laporan Hasil Investigasi Lapangan Tahap Awal\",\r
+
+    \  \"documentFileUuid\": \"5a7191ec-3f45-425a-bd75-5521ed7e432b\",\r
+
+    \  \"stepUuid\": \"e30b184e-70d5-414d-9366-78a54444a309\"\r
+
+    }"
+order: 13000

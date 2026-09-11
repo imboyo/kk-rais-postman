@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{_['backend-host']}}/auth/token/logout"
+method: GET
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 5000

@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{host}}/public-complaint/document/detail/02d986dd-5cc1-4a17-be03-8a0bac7ea135"
+method: POST
+headers:
+  User-Agent: insomnia/12.3.1
+body:
+  type: json
+  content: "{\r
+
+    \    \"populate\": [\"file\"]\r
+
+    }"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 2000

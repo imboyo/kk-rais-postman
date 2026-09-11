@@ -1,0 +1,8 @@
+$kind: collection
+auth:
+  - id: 7b450593-d04c-4bf4-a62f-8f662e46b4c8
+    type: bearer
+    name: bearer auth
+    credentials:
+      token: "{{admin_access_token}}"
+order: 1000

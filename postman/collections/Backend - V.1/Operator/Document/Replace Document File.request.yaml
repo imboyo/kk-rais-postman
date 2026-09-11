@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{host}}/operator/public-complaint/document/replace-document-file/2e3f0ba6-ccf3-4d10-820e-091e82994224"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"documentFileUuid\": \"d3fcf6e2-6296-4651-8bb7-354042e04b56\"\r
+
+    }"
+order: 6000

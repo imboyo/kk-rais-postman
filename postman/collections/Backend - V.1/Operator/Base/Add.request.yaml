@@ -1,0 +1,37 @@
+$kind: http-request
+url: "{{host}}/operator/public-complaint/base/add"
+method: POST
+headers:
+  User-Agent: insomnia/12.3.1
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"Laporan Audit Keamanan Tahunan 2026\",\r
+
+    \  \"documentNumber\": \"DOC-998877\",\r
+
+    \  \"reporters\": [\r
+
+    \    \"Budi Santoso\",\r
+
+    \    \"Siti Aminah\"\r
+
+    \  ],\r
+
+    \  \"reportedParties\": [\r
+
+    \    \"PT Maju Jaya\",\r
+
+    \    \"Digital Solusindo\"\r
+
+    \  ],\r
+
+    \  \"createdAt\": \"2026-02-11T14:30:00.000Z\"\r
+
+    }"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 1000

@@ -1,0 +1,10 @@
+$kind: http-request
+url: "{{host}}/admin/auth/login-as-user/db34f1a6-c920-4983-ba60-587d8f0f1994"
+method: GET
+headers:
+  User-Agent: insomnia/12.3.1
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 1000

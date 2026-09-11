@@ -1,0 +1,19 @@
+$kind: http-request
+url: "{{host}}/account/change-profile"
+method: PATCH
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"address\": \"test 12213fsdf\",\r
+
+    \    \"bio\": \"Halo Test lksadfjlaksjdf\"\r
+
+    }"
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 1000

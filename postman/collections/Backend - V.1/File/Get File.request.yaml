@@ -1,0 +1,10 @@
+$kind: http-request
+url: "{{host}}/file/94f41668-7d5b-462a-9621-f0515b429a08"
+method: GET
+headers:
+  User-Agent: insomnia/12.3.1
+body:
+  type: text
+  content: ""
+settings: {}
+order: 1000

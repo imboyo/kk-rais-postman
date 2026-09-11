@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{host}}/auth/token/login"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"admin@example.com\",\r
+
+    \  \"password\": \"ayyu230686!\"\r
+
+    }"
+order: 1000

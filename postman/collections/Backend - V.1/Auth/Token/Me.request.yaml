@@ -1,0 +1,12 @@
+$kind: http-request
+url: "{{host}}/auth/token/me"
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: ""
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 4000

@@ -1,0 +1,27 @@
+$kind: http-request
+url: "{{host}}/user/list"
+method: POST
+headers:
+  Content-Type: application/json
+  User-Agent: insomnia/12.3.0
+body:
+  type: json
+  content: |-
+    {
+      "page": 1,
+      "populate": [
+        "user",
+        "admin"
+      ],
+      "filter": [
+    		{
+    			"field": "user.uuid",
+    			"operator": "isNull"
+    		}
+      ]
+    }
+settings:
+  followRedirects: true
+  disableUrlEncoding: false
+  disableCookies: false
+order: 1000

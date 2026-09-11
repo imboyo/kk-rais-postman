@@ -1,0 +1,12 @@
+$kind: http-request
+url: "{{host}}/auth/token/me"
+method: GET
+body:
+  type: json
+  content: ""
+auth:
+  type: bearer
+  credentials:
+    token: "{{admin-access-token}}"
+settings: {}
+order: 6000

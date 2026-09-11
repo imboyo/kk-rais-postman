@@ -1,0 +1,19 @@
+$kind: http-request
+url: "{{host}}/operator/public-complaint/document/add-unit"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"documentNumber\": \"DOC/2024/PC-001\",\r
+
+    \  \"title\": \"Laporan Hasil Investigasi Lapangan Tahap Awal\",\r
+
+    \  \"documentFileUuid\": \"dd27816b-f752-4e88-96b5-ecb566d0aa76\",\r
+
+    \  \"stepUuid\": \"e30b184e-70d5-414d-9366-78a54444a309\",\r
+
+    \  \"units\": [\"Unit 1\", \"Unit 2\"]\r
+
+    }"
+order: 3000
