@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/admin/dashboard/report-distribution-map"
+method: POST
+order: 5000

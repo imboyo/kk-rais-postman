@@ -1,0 +1,5 @@
+$kind: http-request
+name: List Reports
+url: "{{host}}/admin/laporan/list"
+method: POST
+order: 1135

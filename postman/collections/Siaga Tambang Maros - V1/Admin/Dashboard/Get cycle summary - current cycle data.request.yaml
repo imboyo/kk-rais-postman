@@ -1,0 +1,5 @@
+$kind: http-request
+name: Get cycle summary / current cycle data
+url: "{{host}}/admin/dashboard/cycle-summary"
+method: GET
+order: 2000

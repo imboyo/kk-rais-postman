@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/admin/dashboard/report-distribution-summary"
+method: POST
+order: 7000

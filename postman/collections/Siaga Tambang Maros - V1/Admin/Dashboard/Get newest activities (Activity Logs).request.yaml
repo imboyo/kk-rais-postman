@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/admin/dashboard/newest-activities"
+method: GET
+order: 987169100404057

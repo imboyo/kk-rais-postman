@@ -1,0 +1,43 @@
+$kind: http-request
+url: "{{host}}/admin/laporan/create"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"Dugaan Tambang Pasir Ilegal di Bantimurung\",\r
+
+    \  \"report_number\": \"LAP-202609-0001\",\r
+
+    \  \"report_date\": \"2026-09-15T08:00:00.000Z\",\r
+
+    \  \"district\": \"Bantimurung\",\r
+
+    \  \"village\": \"Jenetaesa\",\r
+
+    \  \"address\": \"Jl. Poros Bantimurung KM 5\",\r
+
+    \  \"latitude\": -5.0062,\r
+
+    \  \"longitude\": 119.6453,\r
+
+    \  \"activity_type\": \"Tambang Pasir Tanpa Izin\",\r
+
+    \  \"description\": \"Aktivitas penambangan liar di dekat bantaran sungai.\",\r
+
+    \  \"reporter\": {\r
+
+    \    \"full_name\": \"Ahmad Dahlan\",\r
+
+    \    \"national_id_number\": \"7309012345670001\",\r
+
+    \    \"address\": \"Dusun Pakalu, RT 01 / RW 02\",\r
+
+    \    \"contact\": \"+6281234567890\",\r
+
+    \    \"contact_type\": \"phone\"\r
+
+    \  }\r
+
+    }"
+order: 470

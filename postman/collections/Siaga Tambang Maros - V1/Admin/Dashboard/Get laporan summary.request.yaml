@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/admin/dashboard/laporan-summary"
+method: GET
+order: 1000

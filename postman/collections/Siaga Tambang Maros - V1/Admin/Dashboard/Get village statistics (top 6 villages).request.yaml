@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/admin/dashboard/village-statistics"
+method: GET
+order: 4000
