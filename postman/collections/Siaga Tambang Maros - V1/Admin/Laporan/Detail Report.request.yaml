@@ -1,4 +1,4 @@
 $kind: http-request
 url: "{{host}}/admin/laporan/detail/ab5b0b5e-f7d1-43de-b6cd-9e73b16a38ed"
 method: GET
-order: 3000
+order: 5000

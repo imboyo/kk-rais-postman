@@ -1,0 +1,5 @@
+$kind: http-request
+url: "{{host}}/admin/laporan/cycle/activity/detail/2f4d785b-8584-45cb-9384-ec60\
+  7f90b09f"
+method: GET
+order: 2000

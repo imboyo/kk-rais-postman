@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{host}}/admin/laporan/cycle/create"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"report_uuid\": \"081381f7-8049-4cdc-be58-30589c83bf7f\",\r
+
+    \  \"creation_reason\": \"Verifikasi awal terindikasi tambang ilegal\"\r
+
+    }"
+order: 1000

@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/admin/laporan/cycle/detail/afasf"
+method: GET
+order: 3000

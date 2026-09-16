@@ -1,5 +1,5 @@
 $kind: http-request
-url: "{{host}}/admin/laporan/delete/asfasdfasdf"
+url: "{{host}}/admin/laporan/delete/ab5b0b5e-f7d1-43de-b6cd-9e73b16a38ed"
 method: DELETE
 body:
   type: json
@@ -17,4 +17,4 @@ body:
     \  \"report_date\": \"2026-09-14T08:00:00.000Z\"\r
 
     }"
-order: 5000
+order: 7000

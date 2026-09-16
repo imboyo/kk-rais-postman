@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{host}}/admin/laporan/cycle/activity/edit/97366f9a-64bd-4d3e-aa4f-c4f16188f8ed"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"Verifikasi Batas Wilayah Tambang - Lanjutan 1\",\r
+
+    \  \"description\": \"Pengukuran sedang dilaksanakan oleh tim gabungan\",\r
+
+    \  \"status\": \"in_progress\"\r
+
+    }"
+order: 6000

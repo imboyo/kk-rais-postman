@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{host}}/admin/laporan/cycle/delete/afaf"
+method: DELETE
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Siklus 1 (Revisi)\",\r
+
+    \  \"creation_reason\": \"Verifikasi lanjutan tindak lanjut pengaduan\",\r
+
+    \  \"status\": \"handling\"\r
+
+    }"
+order: 5000

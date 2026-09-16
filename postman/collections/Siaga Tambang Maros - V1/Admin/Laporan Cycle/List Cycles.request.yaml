@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{host}}/admin/laporan/cycle/list"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"filters\": {\r
+
+    \        \"report.uuid\": \"081381f7-8049-4cdc-be58-30589c83bf7f\"\r
+
+    \    }\r
+
+    }"
+order: 2000
