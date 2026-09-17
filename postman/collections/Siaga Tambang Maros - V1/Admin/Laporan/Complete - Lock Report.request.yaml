@@ -2,4 +2,4 @@ $kind: http-request
 name: Complete / Lock Report
 url: "{{host}}/admin/laporan/complete/081381f7-8049-4cdc-be58-30589c83bf7f"
 method: PATCH
-order: 6158
+order: 5000

@@ -1,5 +1,5 @@
 $kind: http-request
-url: "{{host}}/admin/laporan/delete/ab5b0b5e-f7d1-43de-b6cd-9e73b16a38ed"
+url: "{{host}}/admin/laporan/delete/081381f7-8049-4cdc-be58-30589c83bf7f"
 method: DELETE
 body:
   type: json

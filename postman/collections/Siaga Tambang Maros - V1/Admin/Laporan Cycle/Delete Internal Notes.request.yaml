@@ -1,0 +1,7 @@
+$kind: http-request
+url: "{{host}}/admin/laporan/internal-notes/delete/90ceb7d6-4d81-41a5-9d56-1558e5f6f415"
+method: DELETE
+body:
+  type: json
+  content: '{ "note": "Follow up with the field team" }'
+order: 9579
