@@ -1,5 +1,6 @@
 $kind: http-request
-url: "{{host}}/admin/laporan/cycle/activity/delete/97366f9a-64bd-4d3e-aa4f-c4f16188f8ed"
+url: "{{host}}/admin/laporan/cycle/activity/delete/2cbb57fa-14bc-4135-902e-1903\
+  921a2980"
 method: DELETE
 body:
   type: json
@@ -12,4 +13,4 @@ body:
     \  \"status\": \"in_progress\"\r
 
     }"
-order: 2863853472843912
+order: 7000

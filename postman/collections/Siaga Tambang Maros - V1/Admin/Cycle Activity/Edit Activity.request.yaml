@@ -1,5 +1,6 @@
 $kind: http-request
-url: "{{host}}/admin/laporan/cycle/activity/edit/97366f9a-64bd-4d3e-aa4f-c4f16188f8ed"
+url: "{{host}}/admin/laporan/cycle/activity/edit/97366f9a-64bd-4d3e-aa4f-c4f161\
+  88f8ed"
 method: PATCH
 body:
   type: json
