@@ -1,0 +1,18 @@
+$kind: http-request
+url: "{{host}}/admin/account-management/user/edit/33f64fad-8436-4aab-a5fe-a9001\
+  8807134"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \  \"full_name\": \"Budi Santoso Updated\",\r
+
+    \  \"position\": \"Koordinator Lapangan\",\r
+
+    \  \"role\": \"pimpinan\",\r
+
+    \  \"status\": \"active\"\r
+
+    }"
+order: 3441

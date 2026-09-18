@@ -1,0 +1,21 @@
+$kind: http-request
+url: "{{host}}/admin/account-management/user/add"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"petugas@siaga-tambang-maros.id\",\r
+
+    \  \"password\": \"SecureUserPassword123\",\r
+
+    \  \"full_name\": \"Budi Santoso\",\r
+
+    \  \"position\": \"Petugas Lapangan\",\r
+
+    \  \"role\": \"petugas\",\r
+
+    \  \"status\": \"active\"\r
+
+    }"
+order: 1000
