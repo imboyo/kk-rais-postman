@@ -1,0 +1,19 @@
+$kind: http-request
+url: "{{host}}/admin/account-management/admin/create"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"admin@siaga-tambang-maros.id\",\r
+
+    \  \"password\": \"SecureAdminPassword123\",\r
+
+    \  \"full_name\": \"Ahmad Dahlan\",\r
+
+    \  \"status\": \"active\",\r
+
+    \  \"super_admin\": false\r
+
+    }"
+order: 1789720762013

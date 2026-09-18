@@ -1,0 +1,12 @@
+$kind: http-request
+url: "{{host}}/admin/master-data/verification-source/edit/d64f6f80-90ec-462b-89\
+  4f-2030d1f26b06"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Tim Teknis Dinas ESDM\"\r
+
+    }"
+order: 2452

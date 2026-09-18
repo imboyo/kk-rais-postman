@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/admin/master-data/verification-source/list"
+method: POST
+order: 2000

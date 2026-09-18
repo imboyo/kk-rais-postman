@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{host}}/admin/master-data/activity-type/delete/4d4d6ef5-fae7-403c-a278-fe0fc056f7fd"
+method: DELETE
+body:
+  type: json
+  content: "{\r
+
+    \    \"description\": \"Penambangan Pasir\"\r
+
+    }"
+order: 3636973984023297

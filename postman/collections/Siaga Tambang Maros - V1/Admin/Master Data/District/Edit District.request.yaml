@@ -1,0 +1,7 @@
+$kind: http-request
+url: "{{host}}/admin/master-data/district/edit/b3cc879c-725d-4222-afc1-62d15edbce8d"
+method: PATCH
+body:
+  type: json
+  content: "{\r\n  \"name\": \"Bantimurung\"\r\n}"
+order: 4000

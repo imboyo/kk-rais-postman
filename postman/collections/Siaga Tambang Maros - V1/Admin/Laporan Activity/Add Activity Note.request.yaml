@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{host}}/admin/laporan/activity/add-note/2cbb57fa-14bc-4135-902e-1903921a2980"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"note\": \"Text of the note\"\r
+
+    }"
+order: 11000

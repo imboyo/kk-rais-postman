@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{host}}/admin/master-data/activity-type/create"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Tambang Pasir\",\r
+
+    \  \"description\": \"Kegiatan penambangan dan pengolahan pasir.\",\r
+
+    \  \"status\": \"active\"\r
+
+    }"
+order: 1000

@@ -1,0 +1,7 @@
+$kind: http-request
+url: "{{host}}/admin/master-data/activity-type/list"
+method: POST
+body:
+  type: json
+  content: ""
+order: 2000

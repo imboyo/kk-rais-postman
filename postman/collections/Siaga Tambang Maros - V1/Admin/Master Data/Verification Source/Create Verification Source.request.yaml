@@ -1,0 +1,7 @@
+$kind: http-request
+url: "{{host}}/admin/master-data/verification-source/create"
+method: POST
+body:
+  type: json
+  content: ""
+order: 1000

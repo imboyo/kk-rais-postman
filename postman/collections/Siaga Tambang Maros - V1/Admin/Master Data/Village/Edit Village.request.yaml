@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{host}}/admin/master-data/village/edit/4c51a3ff-6b47-4f17-822c-d10559b313c8"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Jenetaesa\",\r
+
+    \  \"district_uuid\": \"89596bc9-bf6c-4978-abd5-ee4208321f07\",\r
+
+    \  \"status\": \"active\"\r
+
+    }"
+order: 4000

@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/admin/laporan/activity/files/54d26bb3-b401-4f8e-bb9f-8cc4af5f4af0"
+method: POST
+order: 3000

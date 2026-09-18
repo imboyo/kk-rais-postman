@@ -1,0 +1,12 @@
+$kind: http-request
+url: "{{host}}/admin/master-data/activity-type/edit/4d4d6ef5-fae7-403c-a278-fe0\
+  fc056f7fd"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"description\": \"Penambangan Pasir\"\r
+
+    }"
+order: 4000

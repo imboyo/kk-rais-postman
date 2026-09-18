@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{host}}/admin/master-data/district/create"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Bantimurung\",\r
+
+    \  \"status\": \"active\"\r
+
+    }"
+order: 1000

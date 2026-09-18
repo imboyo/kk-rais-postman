@@ -1,0 +1,28 @@
+$kind: http-request
+url: "{{host}}/admin/laporan/activity/upload-file/54d26bb3-b401-4f8e-bb9f-8cc4af5f4af0"
+method: POST
+body:
+  type: formdata
+  content:
+    - type: file
+      key: file
+      src:
+        - /E:/Downloads/Feem/20260917_120937.jpg
+      description: ""
+      disabled: false
+    - type: text
+      key: source
+      value: MOMI
+      description: ""
+      disabled: false
+    - type: text
+      key: category
+      value: verification
+      description: ""
+      disabled: false
+    - type: text
+      key: description
+      value: Mamang Jii
+      description: ""
+      disabled: false
+order: 5000

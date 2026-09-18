@@ -1,0 +1,20 @@
+$kind: http-request
+url: "{{host}}/admin/account-management/admin/delete/d822c62b-a865-47a1-9ff7-e1\
+  f1d77baa89"
+method: DELETE
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"updated-admin@siaga-tambang-maros.id\",\r
+
+    \  \"password\": \"NewSecurePassword123\",\r
+
+    \  \"full_name\": \"Ahmad Dahlan Updated\",\r
+
+    \  \"status\": \"active\",\r
+
+    \  \"super_admin\": true\r
+
+    }"
+order: 2689993577766363

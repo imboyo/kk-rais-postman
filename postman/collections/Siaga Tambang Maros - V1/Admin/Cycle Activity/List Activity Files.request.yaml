@@ -1,5 +1,0 @@
-$kind: http-request
-url: "{{host}}/admin/laporan/cycle/activity/files/2cbb57fa-14bc-4135-902e-19039\
-  21a2980"
-method: POST
-order: 3000

@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{host}}/admin/master-data/village/create"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Jenetaesa\",\r
+
+    \  \"district_uuid\": \"89596bc9-bf6c-4978-abd5-ee4208321f07\",\r
+
+    \  \"status\": \"active\"\r
+
+    }"
+order: 2000

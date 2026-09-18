@@ -1,0 +1,28 @@
+$kind: http-request
+url: "{{host}}/admin/laporan/activity/notes/2cbb57fa-14bc-4135-902e-1903921a2980"
+method: POST
+body:
+  type: formdata
+  content:
+    - type: file
+      key: file
+      src:
+        - /E:/Downloads/Video/play_1080p.mp4
+      description: ""
+      disabled: false
+    - type: text
+      key: source
+      value: MOMI
+      description: ""
+      disabled: false
+    - type: text
+      key: category
+      value: verification
+      description: ""
+      disabled: false
+    - type: text
+      key: description
+      value: Mamang Jii
+      description: ""
+      disabled: false
+order: 9000

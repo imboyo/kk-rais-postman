@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{host}}/admin/master-data/verification-source/delete/d64f6f80-90ec-462b-894f-2030d1f26b06"
+method: DELETE
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Tim Teknis Dinas ESDM\"\r
+
+    }"
+order: 3650

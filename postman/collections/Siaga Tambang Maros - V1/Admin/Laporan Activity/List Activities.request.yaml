@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/admin/laporan/activity/list"
+method: POST
+order: 1000
