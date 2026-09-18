@@ -5,9 +5,10 @@ body:
   type: json
   content: "{\r
 
-    \  \"email\": \"admin@example.com\",\r
+    \  \"email\": \"petugas@siaga-tambang-maros.id\",\r
 
-    \  \"password\": \"ayyu230686!\"\r
+    \  \"password\": \"SecureUserPassword123\"\r
 
     }"
+examples: .resources/Login and request OTP.resources/examples
 order: 1000

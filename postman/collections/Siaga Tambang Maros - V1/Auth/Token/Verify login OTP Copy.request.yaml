@@ -5,9 +5,9 @@ body:
   type: json
   content: "{\r
 
-    \  \"identifier\": \"admin@example.com\",\r
+    \  \"identifier\": \"petugas@siaga-tambang-maros.id\",\r
 
-    \  \"code\": \"962278\"\r
+    \  \"code\": \"358624\"\r
 
     }"
 order: 3000

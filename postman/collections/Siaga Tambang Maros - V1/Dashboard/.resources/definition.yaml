@@ -1,2 +1,6 @@
 $kind: collection
+auth:
+  type: bearer
+  credentials:
+    token: "{{admin-access-token}}"
 order: 254778645442272

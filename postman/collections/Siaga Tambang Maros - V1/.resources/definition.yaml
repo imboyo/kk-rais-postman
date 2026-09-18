@@ -4,3 +4,5 @@ variables:
   host: ""
   admin-access-token: ""
   admin-refresh-token: ""
+  user_access_token: ""
+  user_refresh_token: ""

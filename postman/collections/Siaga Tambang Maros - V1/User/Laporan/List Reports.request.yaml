@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/user/laporan/list"
+method: POST
+order: 1789730004379
