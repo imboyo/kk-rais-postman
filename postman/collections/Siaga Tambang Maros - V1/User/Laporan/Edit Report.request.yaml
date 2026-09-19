@@ -1,0 +1,20 @@
+$kind: http-request
+url: "{{host}}/user/laporan/edit/7d893914-941a-4998-80ca-a37588a9a9ea"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"Dugaan Tambang Pasir Tanpa Izin di Bantimurung\",\r
+
+    \  \"report_number\": \"LAP-202609-0001\",\r
+
+    \  \"description\": \"Aktivitas penambangan ilegal di dekat bantaran
+    sungai.\",\r
+
+    \  \"address\": \"Jl. Poros Bantimurung KM 5\",\r
+
+    \  \"report_date\": \"2026-09-14T08:00:00.000Z\"\r
+
+    }"
+order: 2629255162760032

@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/user/distribution-map"
+method: POST
+order: 1789782991977

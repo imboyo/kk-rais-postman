@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/user/laporan/logs/7d893914-941a-4998-80ca-a37588a9a9ea"
+method: POST
+order: 2000

@@ -1,0 +1,29 @@
+$kind: http-request
+url: "{{host}}/user/laporan/activity/upload-file/37db102b-66f4-47c7-a9bd-de42ae\
+  46ea26"
+method: POST
+body:
+  type: formdata
+  content:
+    - type: file
+      key: file
+      src:
+        - /E:/Downloads/Feem/SAVE_20260705_202625.jpg
+      description: ""
+      disabled: false
+    - type: text
+      key: source
+      value: Kamera Petugas
+      description: ""
+      disabled: false
+    - type: text
+      key: category
+      value: Dokumentasi Lapangan
+      description: ""
+      disabled: false
+    - type: text
+      key: description
+      value: Halo Bro
+      description: ""
+      disabled: false
+order: 8000

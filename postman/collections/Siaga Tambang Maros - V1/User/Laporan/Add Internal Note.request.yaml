@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{host}}/user/laporan/internal-notes/add/7d893914-941a-4998-80ca-a37588a9a9ea"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"note\": \"Follow up with the field team\"\r
+
+    }"
+order: 4000

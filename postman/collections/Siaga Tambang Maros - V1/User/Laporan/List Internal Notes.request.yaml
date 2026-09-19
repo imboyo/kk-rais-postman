@@ -1,0 +1,5 @@
+$kind: http-request
+url: "{{host}}/user/laporan/internal-notes/list/7d893914-941a-4998-80ca-a37588a\
+  9a9ea"
+method: POST
+order: 3000

@@ -1,0 +1,22 @@
+$kind: http-request
+url: "{{host}}/user/laporan/activity/list"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"report_uuid\": \"7d893914-941a-4998-80ca-a37588a9a9ea\",\r
+
+    \  \"title\": \"Verifikasi Lapangan Lokasi Tambang\",\r
+
+    \  \"description\": \"Pemeriksaan titik koordinat dan pengecekan aktivitas
+    alat berat di lokasi.\",\r
+
+    \  \"category\": \"verification\",\r
+
+    \  \"is_visit\": true,\r
+
+    \  \"visit_at\": \"2026-09-20T09:00:00.000Z\"\r
+
+    }"
+order: 2000

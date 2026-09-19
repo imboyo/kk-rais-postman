@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/user/laporan/activity/delete/37db102b-66f4-47c7-a9bd-de42ae46ea26"
+method: DELETE
+order: 724457781994510
