@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/user/monitoring-tambang/list"
+method: POST
+order: 1789786046841

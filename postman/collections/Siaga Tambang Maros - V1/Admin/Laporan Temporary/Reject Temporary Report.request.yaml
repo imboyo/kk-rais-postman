@@ -1,0 +1,16 @@
+$kind: http-request
+url: "{{host}}/admin/laporan-temporary/reject/da62bbde-8d65-44c9-93a5-161cedece999"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"message\": \"Laporan temporary with uuid
+    \\\"497f6eca-6276-4993-bfeb-53cbbbba6f08\\\" has been successfully
+    rejected.\",\r
+
+    \    \"rejected_reason\": \"The report does not contain enough location
+    evidence.\"\r
+
+    }"
+order: 7000

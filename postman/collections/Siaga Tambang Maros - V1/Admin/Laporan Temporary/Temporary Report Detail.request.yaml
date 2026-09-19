@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/admin/laporan-temporary/detail/da62bbde-8d65-44c9-93a5-161cedece999"
+method: GET
+order: 1942

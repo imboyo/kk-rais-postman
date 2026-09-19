@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{host}}/public/laporan/activities/BM3G385T"
+method: POST
+order: 1636
